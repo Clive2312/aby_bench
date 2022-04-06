@@ -1,0 +1,2 @@
+add_executable(auto_cost_xor_b_10001_c_test auto_cost_xor_b_10001_c_test.cpp common/auto_cost_xor_b_10001_c.cpp)
+target_link_libraries(auto_cost_xor_b_10001_c_test ABY::aby ENCRYPTO_utils::encrypto_utils)
